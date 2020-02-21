@@ -11,9 +11,9 @@ def join_ingredients(src)
   src.length.times do |arr|
     sent = ""
     sent += "I love #{arr[0]} and #{arr[1]} on my pizza"
-  return new.push(sent)
-  end
   
+  end
+  return new.push(sent)
 end
 
 def find_greater_pair(src)
