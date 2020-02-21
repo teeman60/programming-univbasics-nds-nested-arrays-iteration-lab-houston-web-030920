@@ -10,10 +10,12 @@ def join_ingredients(src)
   total = []
   row = 0
   while row < src.count do
-    ele = 0
-    inner sent = ""
-    while ele < src[row].count do
-      if 
+    inner_sent = ""
+    inner sent += "I love #{src[row][0]} and #{src[row][1]} on my pizza"
+    total << inner_sent
+    row += 1
+  end
+    
   
 end
 
