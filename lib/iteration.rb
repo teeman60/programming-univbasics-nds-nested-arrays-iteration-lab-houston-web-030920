@@ -38,11 +38,11 @@ new = []
  
 src.each do |arr|
   arr.each do |ele|
-    ele1 = ele[0]
-    ele2 = ele[1]
-    if ele1 > ele2
-      new << ele1
-    else new << ele2
+    el1 = ele[0]
+    el2 = ele[1]
+    if el1 > el2
+      new << el1
+    else new << el2
     end
   end
 end
