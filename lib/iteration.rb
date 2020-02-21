@@ -50,6 +50,14 @@ def total_even_pairs(src)
   # this!
   
   sum = 0
+  row = 0
+  while row < src.length do 
+    if src[row][0] % 2 == 0 && src[row][1] % 2 == 0 
+      sum += src[row][0] + src[row][1]
+    end
+    row += 1 
+  end
   
+  return sum
 
 end
