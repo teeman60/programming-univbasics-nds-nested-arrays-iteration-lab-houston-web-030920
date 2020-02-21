@@ -11,7 +11,7 @@ def join_ingredients(src)
   row = 0
   while row < src.count do
     inner_sent = ""
-    inner sent += "I love #{src[row][0]} and #{src[row][1]} on my pizza"
+    inner_sent += "I love #{src[row][0]} and #{src[row][1]} on my pizza"
     total << inner_sent
     row += 1
   end
