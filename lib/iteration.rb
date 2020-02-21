@@ -15,7 +15,7 @@ def join_ingredients(src)
     total << inner_sent
     row += 1
   end
-    
+    return total
   
 end
 
