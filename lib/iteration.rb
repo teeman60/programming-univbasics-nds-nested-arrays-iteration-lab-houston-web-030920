@@ -13,7 +13,7 @@ def join_ingredients(src)
     ele = 0
     inner sent = ""
     while ele < src[row].count do
-      if
+      if 
   
 end
 
