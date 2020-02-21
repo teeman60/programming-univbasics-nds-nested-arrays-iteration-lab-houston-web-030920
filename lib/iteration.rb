@@ -29,7 +29,7 @@ row = 0
 while row < src.length do
   if src[row][0] > src[row][1]
     new << src[row][0]
-    elsif src[row][0] < src[row][1] 
+    elsif src[row][0] <= src[row][1] 
     new << src[row][1]
     
   end
