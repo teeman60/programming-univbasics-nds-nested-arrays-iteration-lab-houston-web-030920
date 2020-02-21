@@ -14,7 +14,7 @@ def join_ingredients(src)
     row += 1
   end
   
-  return "I love #{src[row][0]} and #{src[row][1]} on my pizza" 
+  return "I love src[row][0] and src[row][1] on my pizza" 
   
 end
 
