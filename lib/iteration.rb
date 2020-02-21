@@ -71,8 +71,8 @@ def total_even_pairs(src)
       inner_sum += num 
     end
   end
-  sum += inner_sum
+  
 end
 
-return sum
+return sum += inner_sum
 end
