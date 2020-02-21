@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   new = []
-  src.each do |arr|
+  src.length.times do |arr|
     sent = ""
     sent += "I love #{arr[0]} and #{arr[1]} on my pizza"
   return new.push(sent)
