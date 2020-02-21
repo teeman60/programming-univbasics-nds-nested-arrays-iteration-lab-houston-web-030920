@@ -13,7 +13,7 @@ def join_ingredients(src)
     sent += "I love #{arr[0]} and #{arr[1]} on my pizza"
   
   end
-  return new.push(sent)
+  return sent
 end
 
 def find_greater_pair(src)
