@@ -10,7 +10,7 @@ def join_ingredients(src)
   
   row = 0
   while row < src.length do
-     src[row]
+     [src[row]]
     return "I love #{src[row][0]} and #{src[row][1]} on my pizza"
     row += 1
   end
