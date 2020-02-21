@@ -7,25 +7,7 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   
-  # sent = ""
-  # row = 0
-  # while row < src.length do
-  #   ele = 0
-  #   while ele < src[row].length do
-  #     if ele == 0
-  #   sent1 = "src[row][0]"
-  # else
-  #   sent2 = "src[row][1]"
-  # end
-  #   ele += 1
-     
-  # end
-  #   return ["I love #{sent1} and #{sent2} on my pizza]"
-  #   row += 1
-    
-  # end
   
-   
   
 end
 
@@ -34,20 +16,20 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
-new = []
+# new = []
  
-src.each do |arr|
-  arr.each do |ele|
-    el1 = ele[0]
-    el2 = ele[1]
-    if el1 > el2
-      new << el1
-    else new << el2
-    end
-  end
-end
+# src.each do |arr|
+#   arr.each do |ele|
+#     el1 = ele[0]
+#     el2 = ele[1]
+#     if el1 > el2
+#       new << el1
+#     else new << el2
+#     end
+#   end
+# end
  
-return new
+# return new
    
     
   
@@ -62,17 +44,17 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
-  sum = 0
+#   sum = 0
   
-  src.each do |arr|
-    arr.each do |num|
-      inner_sum = 0
-    if num % 2 == 0
-      inner_sum += num 
-    end
-  end
+#   src.each do |arr|
+#     arr.each do |num|
+#       inner_sum = 0
+#     if num % 2 == 0
+#       inner_sum += num 
+#     end
+#   end
   
-end
+# end
 
-return sum += inner_sum
+# return sum += inner_sum
 end
