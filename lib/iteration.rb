@@ -7,15 +7,20 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   
-  
+  sent = ""
   row = 0
   while row < src.length do
     ele = 0
     while ele < src[row].length do
-     return ["I love #{src[row][0]} and #{src[row][1]} on my pizza"]
-     ele += 1
+      if ele == 0
+     sent1 = "src[row][0]"
+   else
+     sent2 = "src[row][1]"
    end
-    
+     ele += 1
+     
+   end
+    return ["I love #{sent1} and #{sent2} on my pizza]"
     row += 1
     
   end
