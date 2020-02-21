@@ -11,10 +11,11 @@ def join_ingredients(src)
   row = 0
   while row < src.length do
     new << src[row]
+    return "I love #{new[0]} and #{new[1]} on my pizza"
     row += 1
   end
   
-  return "I love #{new[0]} and #{new[1]} on my pizza" 
+   
   
 end
 
