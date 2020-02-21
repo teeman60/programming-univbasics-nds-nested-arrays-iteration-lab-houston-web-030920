@@ -34,20 +34,20 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
- new = []
+# new = []
  
- src.each do |arr|
-   arr.each do |ele|
-     ele1 = ele[0]
-     ele2 = ele[1]
-     if ele1 > ele2
-       new << ele1
-     else new << ele2
-     end
-   end
- end
+# src.each do |arr|
+#   arr.each do |ele|
+#     ele1 = ele[0]
+#     ele2 = ele[1]
+#     if ele1 > ele2
+#       new << ele1
+#     else new << ele2
+#     end
+#   end
+# end
  
- return new
+# return new
    
     
   
